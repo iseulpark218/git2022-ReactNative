@@ -1,0 +1,40 @@
+{
+  "name": "Week3App",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "color": "^4.2.1",
+    "faker": "^6.6.6",
+    "moment": "^2.29.1",
+    "moment-with-locales-es6": "^1.0.1",
+    "react": "17.0.2",
+    "react-native": "0.67.3",
+    "react-native-appearance": "^0.3.4",
+    "react-native-keyboard-aware-scroll-view": "^0.9.5",
+    "react-native-paper": "^4.11.2",
+    "react-native-vector-icons": "^9.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.17.5",
+    "@babel/runtime": "7.17.2",
+    "@react-native-community/eslint-config": "2.0.0",
+    "@types/color": "^3.0.3",
+    "@types/faker": "^6.6.9",
+    "@types/react-native-vector-icons": "^6.4.10",
+    "babel-jest": "26.6.3",
+    "eslint": "7.14.0",
+    "jest": "26.6.3",
+    "metro-react-native-babel-preset": "0.66.2",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
